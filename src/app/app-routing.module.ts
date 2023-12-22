@@ -1,10 +1,18 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 
-const routes: Routes = [];
+import { TemperatureDisplayComponent } from './temperature-reader/pages/temperature-display/temperature-display.component';
+
+const routes: Routes = [
+  {
+    path: 'temperature-display',
+    component: TemperatureDisplayComponent,
+  },
+  { path: '**', redirectTo: 'temperature-display' },
+];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
-  exports: [RouterModule]
+  exports: [RouterModule],
 })
-export class AppRoutingModule { }
+export class AppRoutingModule {}

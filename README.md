@@ -1,10 +1,9 @@
 # BeyonnexTemperatureReader
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.1.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.1. This is an Angular project that allows users to input minimum and maximum temperature values and a target temperature. It displays these values in a temperature indicator component with a visual representation of the target temperature.
 
 ## Development server
-
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Run `npm install` to create the node_modules foder, then run  `npm start` for a dev server. Navigate to http://localhost:4200/. The app will automatically reload if you change any of the source files.
 
 ## Code scaffolding
 
